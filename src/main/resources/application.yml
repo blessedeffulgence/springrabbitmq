@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springrabbit
+    username: keycloak
+    password: keycloak
+  jpa:
+    hibernate:
+      ddl-auto: update
